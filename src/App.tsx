@@ -22,7 +22,7 @@ export const App = () => {
 
   useEffect(() => {
     getUsers();
-  }, [getUsers]);
+  }, []);
 
   const [checkedUsers, setCheckedUsers] = useState([]);
   const checkAll = () => {
